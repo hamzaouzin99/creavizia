@@ -16,7 +16,7 @@ const MenuSide = () => {
 
 
   return (
-    <div className='w-screen h-screen transition-opacity fixed top-0 left-0 duration-300  p-10 bg-white flex flex-col '>
+    <div className='w-screen h-screen transition-opacity sm:fixed md:fixed fixed top-0 left-0 duration-300  p-10 bg-white flex flex-col '>
         <div className='absolute right-12 bottom-8'>
             <button className='bg-red-500 hover:bg-red-600 rounded-full text-white p-3' onClick={()=>SetOpen(!open)}>X</button>
         </div>
