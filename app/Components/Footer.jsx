@@ -30,7 +30,7 @@ const Footer = () => {
                 <Link href='https://wa.me/212656738896'><RiWhatsappFill size={26} className='text-green-600'/></Link>
             </div>
         </div>
-        <div className='grid grid-cols-1 gap-5  text-center lg:grid-cols-3 p-16  justify-center items-center'>
+        <div className='grid grid-cols-1 gap-5  text-center lg:grid-cols-3 p-8 lg:p-16  justify-center items-center'>
            
             <div className='lg:mr-auto '>
                 <Link className='text-center text-lg font-semibold ' href="/">سياسة الخصوصية</Link>
