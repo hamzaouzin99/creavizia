@@ -31,7 +31,7 @@ export default function Home() {
     <Services/>
     <FeaturedWork/>
     <Contact/>
-    <Link href='https://wa.me/212656738896' target='_blank' className=' z-50  fixed bottom-12 right-5'><RiWhatsappFill size={66} className='animate-bounce text-green-600'/></Link>
+    <Link href='https://wa.me/212656739688' target='_blank' className=' z-50  fixed bottom-16 right-10 lg:bottom-12 lg:right-5'><RiWhatsappFill size={66} className='animate-bounce text-green-600'/></Link>
 
     </>}
     </Context>

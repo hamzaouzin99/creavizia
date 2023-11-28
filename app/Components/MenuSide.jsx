@@ -27,7 +27,7 @@ const MenuSide = () => {
             <div className='flex gap-3'>
             <Link href='https://facebook.com/creavizia'><RiFacebookBoxFill size={26} className='text-blue-700'/></Link>
                 <Link href='https://www.instagram.com/creavizia'><RiInstagramFill size={26} className='text-red-400'/></Link>
-                <Link href='https://wa.me/212656738896'><RiWhatsappFill size={26} className='text-green-600'/></Link>
+                <Link href='https://wa.me/212656739688'><RiWhatsappFill size={26} className='text-green-600'/></Link>
             </div>
         </div>
         <div className='flex flex-col justify-center items-center gap-7 mt-28'>
@@ -36,7 +36,7 @@ const MenuSide = () => {
                 <Link href="/#works" onClick={()=>SetOpen(!open)}  className='font-bold  text-3xl hover:text-[#D6401F]'>أعمالنا</Link>
                 <Link href="/#contact" onClick={()=>SetOpen(!open)}  className='font-bold text-3xl hover:text-[#D6401F]'>إتصل بنا</Link>
                 <Link href="/#contact" onClick={()=>SetOpen(!open)} ><button className='bg-[#D6401F] font-bold text-lg p-3 text-white tracking-wide rounded-md'>أطلب موقعك الإلكتروني</button></Link>
-                <Link className='flex gap-2 text-3xl items-center' target="_blank" href='https://wa.me/212656738896'><span></span><span className='hover:text-green-600'>88 96 73 56 06</span><RiWhatsappFill size={36} className='text-green-600'/> </Link>
+                <Link className='flex gap-2 text-3xl items-center' target="_blank" href='https://wa.me/212656739688'><span></span><span className='hover:text-green-600'>88 96 73 56 06</span><RiWhatsappFill size={36} className='text-green-600'/> </Link>
         </div>
     </div>
   )
