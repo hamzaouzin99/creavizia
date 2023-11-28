@@ -35,7 +35,7 @@ const Footer = () => {
             <div className='lg:mr-auto hidden '>
                 <Link className='text-center text-lg font-semibold ' href="/">سياسة الخصوصية</Link>
             </div>
-            <div className='col-span-2'>
+            <div className='col-span-3'>
                 <p className='text-center text-lg font-semibold lg:text-center'>جميع الحقوق محفوظة ل <span className='text-orange-600'>&copy;2023 Creavizia </span></p>
             </div>
         </div>
