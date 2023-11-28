@@ -7,6 +7,9 @@ import Navbar from './Components/Navbar'
 
 
 
+
+
+
 export const metadata = {
   title: 'Creavizia',
   description:"وكالة متخصصة في تصميم المواقع الإلكترونية و التصميم الكرافيكي و إدارة الإعلانات في مواقع التواصل الإجتماعي"
@@ -18,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar">
-      
+   
     <body  className='overflow-x-hidden'>
    
       <Notification />

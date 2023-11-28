@@ -32,7 +32,7 @@ const Footer = () => {
         </div>
         <div className='grid grid-cols-1 gap-5  text-center lg:grid-cols-3 p-8 lg:p-16  justify-center items-center'>
            
-            <div className='lg:mr-auto '>
+            <div className='lg:mr-auto hidden '>
                 <Link className='text-center text-lg font-semibold ' href="/">سياسة الخصوصية</Link>
             </div>
             <div className='col-span-2'>
