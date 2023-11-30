@@ -13,6 +13,7 @@ import Footer from './Components/Footer'
 import Link from 'next/link'
 import { RiWhatsappFill } from 'react-icons/ri'
 import next from "next"
+import Head from 'next/head'
 
 
 
@@ -21,6 +22,22 @@ export default function Home() {
 
   
   return (
+    <>
+    <Head>
+      <script>
+        {`
+          
+         
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K46QRVX8')
+`
+          
+        }
+      </script>
+    </Head>
     <div className='relative'>
      <Context>
     {/*!open ? <MenuSide/> : */<>  
@@ -37,5 +54,6 @@ export default function Home() {
     </Context>
   
   </div>
+  </>
   )
 }
