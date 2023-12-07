@@ -10,8 +10,7 @@ import Context, { SideBar } from './Context/Context'
 import { useContext } from 'react'
 import MenuSide from './Components/MenuSide'
 import Footer from './Components/Footer'
-import Link from 'next/link'
-import { RiWhatsappFill } from 'react-icons/ri'
+
 import next from "next"
 import Head from 'next/head'
 
@@ -48,7 +47,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <Services/>
     <FeaturedWork/>
     <Contact/>
-    <Link href='https://wa.me/212656739688' target='_blank' className=' z-50  fixed bottom-16 right-10 lg:bottom-12 lg:right-5'><RiWhatsappFill size={66} className='animate-bounce text-green-600'/></Link>
 
     </>}
     </Context>
