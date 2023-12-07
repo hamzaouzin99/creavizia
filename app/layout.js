@@ -14,6 +14,7 @@ import Head from 'next/head'
 
 export const metadata = {
   title: 'Creavizia',
+  
   description:"وكالة متخصصة في تصميم المواقع الإلكترونية و التصميم الكرافيكي و إدارة الإعلانات في مواقع التواصل الإجتماعي"
   ,
   keywords:"Design Website, Wordpress , Website, Developpement , تصميم موقع إلكتروني , موقع إلكتروني,Creavizia,Nextjs,reactjs,php,shopify,agence marketing digital",
@@ -23,7 +24,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar">
-    
+     <Head>
+        <meta name="viewport" content="viewport-fit=cover" />
+      </Head>
     <body  className='overflow-x-hidden'>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K46QRVX8"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
